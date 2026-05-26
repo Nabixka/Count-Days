@@ -46,12 +46,37 @@ date.value = newDate
             </div>
         </div>
 
-        <!--  -->
-        <div class="flex justify-between">
-            <h3>Daftar Hitung Hari</h3>
-            <button>
-                
+        <!-- Add -->
+        <div class="flex justify-between mt-5">
+            <h3 class="font-semibold">Daftar Hitung Hari</h3>
+            <button class="text-[#0F1B4C] font-semibold shadow rounded-full px-5 py-1 ">
+                + Tambah
             </button>
+        </div>
+
+        <!-- Card Total -->
+        <div class="bg-white rounded-lg shadow-md mt-5">
+            <div class="p-3 flex justify-between">
+
+                <div class="flex gap-3 items-center">
+                    <div class="bg-[#F5F6FB] p-3 flex items-center rounded-lg w-15 h-15">
+                        <Icon icon="material-symbols:schedule" width="30" height="30"/>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold">Mulai Tobat</h4>
+                        <h4 class="text-sm font-semibold text-gray-600">26/05/2026</h4>
+                        <h4 class="text-sm text-[#59C36A] font-semibold">Dihitung Sejak</h4>
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <div class="flex flex-col items-end">
+                        <h3 class="font-bold text-3xl">80</h3>
+                        <h3>hari</h3>
+                    </div>
+                    <Icon icon="iwwa:option" width="45" height="25"></Icon>
+                </div>
+            </div>
         </div>
 
     </div>
